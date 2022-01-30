@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\googledown\glad\src\glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="三角形绘制.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="着色器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="封装shader着色器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="纹理.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="变换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="坐标系统.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="摄像机.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2_颜色.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2_环境光照.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2_材质.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2_光照贴图.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_m.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="fs.txt" />
+    <Text Include="vs.txt" />
+    <Text Include="4.1.texturefs.txt" />
+    <Text Include="4.1.texturevs.txt" />
+    <Text Include="CoordinateSystemsfs.txt" />
+    <Text Include="CoordinateSystemsvs.txt" />
+    <Text Include="cameravs.txt">
+      <Filter>源文件</Filter>
+    </Text>
+    <Text Include="camerafs.txt">
+      <Filter>源文件</Filter>
+    </Text>
+    <Text Include="2_colorsvs.txt" />
+    <Text Include="2_colorsfs.txt" />
+    <Text Include="2_light_cubevs.txt" />
+    <Text Include="2_light_cubefs.txt" />
+    <Text Include="2_colors_base_fs.txt">
+      <Filter>源文件</Filter>
+    </Text>
+    <Text Include="2_colors_base_vs.txt">
+      <Filter>源文件</Filter>
+    </Text>
+    <Text Include="2_Materialvs.txt" />
+    <Text Include="2_Materialfs.txt" />
+    <Text Include="2_Lighting_mapsfs.txt" />
+    <Text Include="2_Lighting_mapsvs.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="container.jpg" />
+    <Image Include="awesomeface.png" />
+    <Image Include="container2.png" />
+  </ItemGroup>
+</Project>
