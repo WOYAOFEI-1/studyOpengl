@@ -162,10 +162,13 @@
     <ClCompile Include="投光物.cpp" />
     <ClCompile Include="摄像机.cpp" />
     <ClCompile Include="2_材质.cpp" />
+    <ClCompile Include="模型.cpp" />
     <ClCompile Include="着色器.cpp" />
     <ClCompile Include="纹理.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="mesh.h" />
+    <ClInclude Include="model.h" />
     <ClInclude Include="shader.h" />
     <ClInclude Include="shader_m.h" />
     <ClInclude Include="stb_image.h" />
@@ -184,6 +187,8 @@
     <Text Include="2_Materialfs.txt" />
     <Text Include="2_Materialvs.txt" />
     <Text Include="2_multiple_lightfs.txt" />
+    <Text Include="3_modelfs.txt" />
+    <Text Include="3_modelvs.txt" />
     <Text Include="4.1.texturefs.txt" />
     <Text Include="4.1.texturevs.txt" />
     <Text Include="camerafs.txt" />

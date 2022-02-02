@@ -62,6 +62,9 @@
     <ClCompile Include="多光源.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="模型.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader.h">
@@ -71,6 +74,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="shader_m.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -104,6 +113,8 @@
     <Text Include="2_light_casterfs.txt" />
     <Text Include="2_light_casterfs_plus.txt" />
     <Text Include="2_multiple_lightfs.txt" />
+    <Text Include="3_modelvs.txt" />
+    <Text Include="3_modelfs.txt" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="container.jpg" />
