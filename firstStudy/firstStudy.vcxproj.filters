@@ -56,6 +56,12 @@
     <ClCompile Include="2_光照贴图.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="投光物.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="多光源.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader.h">
@@ -95,6 +101,9 @@
     <Text Include="2_Materialfs.txt" />
     <Text Include="2_Lighting_mapsfs.txt" />
     <Text Include="2_Lighting_mapsvs.txt" />
+    <Text Include="2_light_casterfs.txt" />
+    <Text Include="2_light_casterfs_plus.txt" />
+    <Text Include="2_multiple_lightfs.txt" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="container.jpg" />
