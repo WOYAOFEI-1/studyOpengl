@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -150,6 +150,7 @@
     <ClCompile Include="..\..\..\..\..\googledown\glad\src\glad.c" />
     <ClCompile Include="2_环境光照.cpp" />
     <ClCompile Include="2_颜色.cpp" />
+    <ClCompile Include="4_模板测试.cpp" />
     <ClCompile Include="camera.h" />
     <ClCompile Include="stb_image.cpp" />
     <ClCompile Include="test.cpp" />
@@ -162,7 +163,7 @@
     <ClCompile Include="投光物.cpp" />
     <ClCompile Include="摄像机.cpp" />
     <ClCompile Include="2_材质.cpp" />
-    <ClCompile Include="模型.cpp" />
+    <ClCompile Include="3_模型.cpp" />
     <ClCompile Include="着色器.cpp" />
     <ClCompile Include="纹理.cpp" />
   </ItemGroup>
@@ -191,6 +192,9 @@
     <Text Include="3_modelvs.txt" />
     <Text Include="4.1.texturefs.txt" />
     <Text Include="4.1.texturevs.txt" />
+    <Text Include="4_stencil_color_fs.txt" />
+    <Text Include="4_stencil_fs.txt" />
+    <Text Include="4_stencil_vs.txt" />
     <Text Include="camerafs.txt" />
     <Text Include="cameravs.txt" />
     <Text Include="CoordinateSystemsfs.txt" />

@@ -62,7 +62,10 @@
     <ClCompile Include="多光源.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="模型.cpp">
+    <ClCompile Include="3_模型.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4_模板测试.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -115,6 +118,9 @@
     <Text Include="2_multiple_lightfs.txt" />
     <Text Include="3_modelvs.txt" />
     <Text Include="3_modelfs.txt" />
+    <Text Include="4_stencil_vs.txt" />
+    <Text Include="4_stencil_fs.txt" />
+    <Text Include="4_stencil_color_fs.txt" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="container.jpg" />
