@@ -151,6 +151,8 @@
     <ClCompile Include="2_环境光照.cpp" />
     <ClCompile Include="2_颜色.cpp" />
     <ClCompile Include="4_模板测试.cpp" />
+    <ClCompile Include="4_混合.cpp" />
+    <ClCompile Include="4_面剔除.cpp" />
     <ClCompile Include="camera.h" />
     <ClCompile Include="stb_image.cpp" />
     <ClCompile Include="test.cpp" />
@@ -192,6 +194,7 @@
     <Text Include="3_modelvs.txt" />
     <Text Include="4.1.texturefs.txt" />
     <Text Include="4.1.texturevs.txt" />
+    <Text Include="4_blending_fs.txt" />
     <Text Include="4_stencil_color_fs.txt" />
     <Text Include="4_stencil_fs.txt" />
     <Text Include="4_stencil_vs.txt" />

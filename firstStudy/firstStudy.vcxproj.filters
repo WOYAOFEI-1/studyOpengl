@@ -68,6 +68,12 @@
     <ClCompile Include="4_模板测试.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="4_混合.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4_面剔除.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader.h">
@@ -121,6 +127,7 @@
     <Text Include="4_stencil_vs.txt" />
     <Text Include="4_stencil_fs.txt" />
     <Text Include="4_stencil_color_fs.txt" />
+    <Text Include="4_blending_fs.txt" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="container.jpg" />
